@@ -1,0 +1,122 @@
+        body {
+            background: #f5f5f5;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        #app {
+            display: grid;
+            grid-auto-rows: minmax(100px, auto);
+            /* grid-template-columns:  */
+            height: 100vh;
+            justify-content: center;
+            grid-gap: 1em;
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .holder {
+            border-radius: 5px;
+        }
+        
+        .entry {}
+        
+        #entryHolder {}
+        
+        #date {}
+        
+        #temp {}
+        
+        #content {}
+        
+        .headline {
+            width: 100%;
+            text-align: center;
+            color: deeppink;
+        }
+        
+        .headline>h2 {
+            color: darkviolet;
+        }
+        
+        .title {}
+        /*  Basic Styling To Override Default For Basic HTML Elements */
+        
+        label {
+            color: darkviolet;
+            display: block;
+            font-size: 27px;
+        }
+        
+        input {
+            display: block;
+            height: 50px;
+            width: 265px;
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+            border: none;
+            border-radius: 6px;
+            border: 2px solid deeppink;
+        }
+        
+        button {
+            width: 200px;
+            height: 90px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Staatliches', sans-serif;
+            border: none;
+            float: right;
+            cursor: pointer;
+            border-radius: 6px;
+            border: 2px solid deeppink;
+            background-color: white;
+        }
+        
+        button:hover {
+            transition: all 0.3s ease-in-out;
+            background-color: deepskyblue;
+        }
+        
+        h1 {
+            font-size: 36px;
+        }
+        
+        textarea {
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+            height: 82px;
+            width: 50%;
+            border-radius: 6px;
+            border: 2px solid deeppink;
+        }
+        /* Reset style for HTML element on active to have no border*/
+        
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+            outline: none;
+        }
+        /* Style for Placeholder Text*/
+        
+         ::placeholder {
+            /* Firefox, Chrome, Opera */
+            font-family: 'Oswald', sans-serif;
+        }
+        
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #f0d43a;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+         ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: #f0d43a;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .zip label,
+        .feel label {
+            font-family: 'Circular-Loom';
+        }
